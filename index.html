@@ -420,19 +420,27 @@
       <div class="feature-grid">
         <div class="feature-item">
           <p class="feature-title">Automated AoA sweeps</p>
-          <p class="feature-desc">Specify range and step size — internal convergence stepping at 0.05° for stability, saving only the requested data points.</p>
+          <p class="feature-desc">Specify range and step size — internal convergence stepping at 0.05° keeps XFOIL stable, saving only the requested data points.</p>
         </div>
         <div class="feature-item">
           <p class="feature-title">Multi-Reynolds number analysis</p>
-          <p class="feature-desc">Run multiple Re numbers in one session. Results stored per Re, with CL vs alpha and drag polar comparisons across conditions.</p>
+          <p class="feature-desc">Run multiple Re numbers in one session, results stored separately per Re. Automatically generates CL vs alpha and drag polar comparisons across all conditions.</p>
+        </div>
+        <div class="feature-item">
+          <p class="feature-title">Experimental data overlay</p>
+          <p class="feature-desc">Load your own wind tunnel or reference data files and overlay them directly on polar and Cp plots — making validation and comparison straightforward.</p>
         </div>
         <div class="feature-item">
           <p class="feature-title">Pressure distribution plots</p>
-          <p class="feature-desc">Cp vs x/c with airfoil geometry overlay, coefficient annotation, multi-AoA overlays, and experimental data import for validation.</p>
+          <p class="feature-desc">Cp vs x/c with airfoil geometry overlay and aerodynamic coefficient annotation. Overlay multiple AoA conditions on a single plot for direct comparison.</p>
         </div>
         <div class="feature-item">
           <p class="feature-title">Append and resume logic</p>
-          <p class="feature-desc">Append new sweep results to existing polar files with auto-sorted AoA. Pause mid-sweep with Ctrl+C and save partial results.</p>
+          <p class="feature-desc">Append new sweep results to existing polar files with auto-sorted AoA. Pause mid-sweep with Ctrl+C and save partial results without losing data.</p>
+        </div>
+        <div class="feature-item">
+          <p class="feature-title">Viscous and inviscid modes</p>
+          <p class="feature-desc">Full viscous boundary layer analysis with transition prediction, or fast inviscid panel method. Outputs CL, CD, CM, CDp, CDf, and boundary layer transition locations.</p>
         </div>
       </div>
 
