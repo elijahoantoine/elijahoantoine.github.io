@@ -380,9 +380,9 @@
 
 <div class="hero" id="top">
   <p class="hero-eyebrow">Aerospace Engineering · Penn State University</p>
-  <h1>Engineering analysis, simulation, and <em>applied problem solving.</em></h1>
+  <h1>Building toward <em>spacecraft GNC</em> and flight software.</h1>
   <p class="hero-sub">
-    Junior studying Aerospace Engineering at Penn State. I work across aerodynamics, dynamics, and controls — building projects that connect theory to practice.
+    Junior studying Aerospace Engineering at Penn State. My interests are in guidance, navigation, and control, astrodynamics, and flight software — building projects that connect coursework to real systems.
   </p>
   <div class="hero-links">
     <a href="#projects" class="btn btn-primary">View projects</a>
@@ -420,27 +420,19 @@
       <div class="feature-grid">
         <div class="feature-item">
           <p class="feature-title">Automated AoA sweeps</p>
-          <p class="feature-desc">Specify range and step size — internal convergence stepping at 0.05° keeps XFOIL stable, saving only the requested data points.</p>
+          <p class="feature-desc">Specify range and step size — internal convergence stepping at 0.05° for stability, saving only the requested data points.</p>
         </div>
         <div class="feature-item">
           <p class="feature-title">Multi-Reynolds number analysis</p>
-          <p class="feature-desc">Run multiple Re numbers in one session, results stored separately per Re. Automatically generates CL vs alpha and drag polar comparisons across all conditions.</p>
-        </div>
-        <div class="feature-item">
-          <p class="feature-title">Experimental data overlay</p>
-          <p class="feature-desc">Load your own wind tunnel or reference data files and overlay them directly on polar and Cp plots — making validation and comparison straightforward.</p>
+          <p class="feature-desc">Run multiple Re numbers in one session. Results stored per Re, with CL vs alpha and drag polar comparisons across conditions.</p>
         </div>
         <div class="feature-item">
           <p class="feature-title">Pressure distribution plots</p>
-          <p class="feature-desc">Cp vs x/c with airfoil geometry overlay and aerodynamic coefficient annotation. Overlay multiple AoA conditions on a single plot for direct comparison.</p>
+          <p class="feature-desc">Cp vs x/c with airfoil geometry overlay, coefficient annotation, multi-AoA overlays, and experimental data import for validation.</p>
         </div>
         <div class="feature-item">
           <p class="feature-title">Append and resume logic</p>
-          <p class="feature-desc">Append new sweep results to existing polar files with auto-sorted AoA. Pause mid-sweep with Ctrl+C and save partial results without losing data.</p>
-        </div>
-        <div class="feature-item">
-          <p class="feature-title">Viscous and inviscid modes</p>
-          <p class="feature-desc">Full viscous boundary layer analysis with transition prediction, or fast inviscid panel method. Outputs CL, CD, CM, CDp, CDf, and boundary layer transition locations.</p>
+          <p class="feature-desc">Append new sweep results to existing polar files with auto-sorted AoA. Pause mid-sweep with Ctrl+C and save partial results.</p>
         </div>
       </div>
 
@@ -460,18 +452,26 @@ python XFOIL_Interface/main.py</pre>
 
     <div class="project-card-stub">
       <div class="stub-left">
-        <span class="stub-title">6-DOF Flight Simulator</span>
-        <span class="stub-sub">Flight dynamics · MATLAB/Simulink · Personal — In progress</span>
+        <span class="stub-title">Aircraft Pitch &amp; Altitude Controller</span>
+        <span class="stub-sub">Longitudinal flight dynamics · MATLAB/Simulink · Summer 2026</span>
       </div>
       <span class="stub-badge">Coming soon</span>
     </div>
 
     <div class="project-card-stub">
       <div class="stub-left">
-        <span class="stub-title">CFD Analysis — PSU 94-097 Airfoil</span>
-        <span class="stub-sub">Computational fluid dynamics · Personal — In progress</span>
+        <span class="stub-title">Rocket Flight Computer</span>
+        <span class="stub-sub">Embedded systems · PCB design · Barometer · GPS · SD logging — Collaborative</span>
       </div>
-      <span class="stub-badge">Coming soon</span>
+      <span class="stub-badge">In progress</span>
+    </div>
+
+    <div class="project-card-stub">
+      <div class="stub-left">
+        <span class="stub-title">CFD Airfoil Analysis — PSU 94-097</span>
+        <span class="stub-sub">Computational fluid dynamics · ANSYS Fluent · SolidWorks — Planned</span>
+      </div>
+      <span class="stub-badge">Planned</span>
     </div>
 
   </div>
@@ -484,13 +484,13 @@ python XFOIL_Interface/main.py</pre>
   <div class="about-grid">
     <div class="about-text">
       <p>
-        I'm Elijah Antoine, a junior studying Aerospace Engineering at Penn State University, graduating May 2027. My coursework and projects span aerodynamics, flight dynamics, orbital mechanics, structural analysis, and systems and controls.
+        I'm Elijah Antoine, a junior studying Aerospace Engineering at Penn State University, graduating May 2027. My coursework spans aerodynamics, flight dynamics, orbital mechanics, structural analysis, and systems and controls — with the space systems track as my focus.
       </p>
       <p>
-        I build projects because working through a problem from scratch is how I actually understand it. The XFOIL Interface started as a tool to streamline airfoil analysis and ended up teaching me as much about how panel methods behave as any lecture did. That pattern drives the work here.
+        I build projects because working through a problem from scratch is how I actually understand it. The XFOIL tool started as a way to streamline airfoil analysis and ended up teaching me as much about panel method behavior as any lecture did. The same logic drives everything else here — if I want to understand how a system works, I build it.
       </p>
       <p>
-        My longer-term interests point toward dynamic systems and controls, and I'm planning to pursue graduate study in aerospace engineering after finishing my degree.
+        My longer-term interests are in spacecraft GNC, astrodynamics, and flight software. I'm planning to apply to graduate programs in aerospace engineering focused on those areas after finishing my degree.
       </p>
     </div>
     <div class="about-meta">
@@ -504,11 +504,11 @@ python XFOIL_Interface/main.py</pre>
       </div>
       <div class="meta-item">
         <p class="meta-label">Areas of interest</p>
-        <p class="meta-value">Controls · Flight dynamics · Aerodynamics</p>
+        <p class="meta-value">GNC · Astrodynamics · Flight software · Space systems</p>
       </div>
       <div class="meta-item">
         <p class="meta-label">Tools & languages</p>
-        <p class="meta-value">MATLAB · Python · XFOIL · SolidWorks · C++</p>
+        <p class="meta-value">Python · MATLAB/Simulink · C++ · XFOIL · SolidWorks</p>
       </div>
     </div>
   </div>
@@ -520,7 +520,7 @@ python XFOIL_Interface/main.py</pre>
   <span class="footer-name">Elijah Antoine · elijahoantoine@gmail.com</span>
   <div class="footer-links">
     <a href="https://github.com/elijahoantoine" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/elijahantoine/" target="_blank">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/elijah-antoine-0a4a15346/" target="_blank">LinkedIn</a>
   </div>
 </footer>
 
